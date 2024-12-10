@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="nb">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Eksamen forside</title>
+        <link rel="stylesheet" href="ikoner/fontawesome-free-6.6.0-web/css/solid.css">
+        <link rel="stylesheet" href="ikoner/fontawesome-free-6.6.0-web/css/fontawesome.css">
+        <link rel="stylesheet" href="ikoner/fontawesome-free-6.6.0-web/css/brands.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+<body>
+    <header>  
+       
+
+<nav class="flex-menu">
+
+    <section class="search">
+    
+          <input type="search" name="search" class="round" placeholder="Søk her"/>
+
+          <i class="fa-solid fa-magnifying-glass" id="search"></i>
+    </section>
+
+   
+
+    <ul class="flex-menu" id="flex-menu">
+        <li class=""><a href=index.html>Hjem</a></li>
+        <li><a href=product.html>Produkter</a></li>
+    
+        <li><a href="index.html" class="size">Logo</a></li>
+    
+        <li><a href=".html">Kategorier</a></li>
+        <li><a href=".html">Kontakt oss</a></li>
+     </ul>
+<section>
+    <ul class="flex-icons-nav" id="flex-space-a">
+        <li><i class="fa-regular fa-user"></i></li>
+        <li><i class="fa-regular fa-heart"></i></li>
+        <li><a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+    </ul>
+</section>
+
+
+</nav> 
+
+</header>
+
+<main>
+    <section>
+      <h1>Kasse</h1> 
+     </section>
+
+    
+     
+    <section class="shoppingbagen">
+        <h1>1. SHOPPINGBAGEN DIN</h1>
+        <article>
+            <img class="clothes" src="clothes.jpg" alt="Tskjorte"> 
+            <a aria-label="Lagre produkt i favoritter">
+            
+            <ul>           
+                
+                <li><h3>Produktnavn</h3></li>
+                <li>Kr 1900</li>
+                <li>Color: White</li>
+            </ul>
+            </a>
+        </article>
+
+        <section class="shoppingbagen">
+            <article>
+                <img class="clothes" src="clothes.jpg" alt="Tskjorte">    
+                <a aria-label="Lagre produkt i favoritter">
+                <ul>           
+                    
+                    <li><h3>Produktnavn</h3></li>
+                    <li>Kr 1900</li> 
+                    <li>Color: White</li>
+                </ul>
+                </a>
+            </article>
+    
+    
+            
+           
+    
+    </section>
+<h1>2. DINE OPPLYSNINGER</h1>
+
+    <form method="post">
+        <label>Fornavn</label>
+        <input type="text" name="Navn" placeholder="Fornavn" id="Fornavn" maxlength="45" required pattern="[A-Za-zæøåØÆÅ ]{2,}">
+        
+        
+            <label>Etternavn</label>
+            <input type="text" name="Etternavn" placeholder="Etternavn" id="Etternavn" maxlength="100" required pattern="[A-Za-zæøåØÆÅ ]{2,}">   
+
+    
+        <label for="gateadresse">Gateadresse</label>
+        <input type="text" name="Gateadresse" placeholder="gateadresse" id="gateadresse" maxlength="45" required pattern="[A-Za-zæøåØÆÅ ]{2,}" >
+        
+        <label for="quantity">postnummer</label>
+        <input type="number" id="quantit" name="quantity" min="18" max="10000">
+
+            <label for="quantity">postnummer</label>
+            <input type="number" id="quantity" name="quantity" min="18" max="10000">
+            <label>
+                <input type="submit" value="Send inn">
+            </label>
+        <a href="#">Avbryt</a>
+</form> 
+    
+    </section>
+
+<section>
+    <h1>3. LEVERING</h1>
+    <h3>LEVERINGSVALG</h3>
+    <label>
+        Express Hjemlevering
+        <input type="radio" name="valg">
+    </label>
+    <label>
+        Express Pakke til utleveringssted
+        <input type="radio" name="valg">
+    </label>
+    <label>
+        Standard Hjemlevering
+        <input type="radio" name="valg">
+    </label>
+
+</section>
+
+<section>
+    <h1>4. BETALING</h1>
+    <h3>BETAL MED KORT</h3>
+    
+    <label for="start">Utløpsdato</label>
+
+
+    <input type="month" id="start" name="start" min="2024-01" value="2024-01" />
+    
+    <label for="quantity">kortnummer</label>
+    <input type="number" id="quantity1" name="quantity">
+
+    <label for="CVC">CVC/CVV</label>
+    <input type="text" name="CVV" placeholder="CVC" id="CVC" maxlength="45" required pattern="[A-Za-zæøåØÆÅ ]{2,}">
+
+    <a>Å betale inkl. mva.</a>
+    <a>1 199 kr</a>
+    <button>Fullfør kjøp</button>
+    <a> Du bekrefter herved at opplysningnen og dokumentene du har oppgitt er korrekte og fulltendige. Leverandøren forbeholder seg retten til å heve eller avslutte avtaleforholdet dersom det foreligger uriktige eller ufullstendige opplysninger. </a>
+
+    <input type="checkbox" id="personvern" name="personvern1" value="personvern" required>
+        <label> Ja takk! Send nyhetsbrev til meg</label> 
+     <input type="checkbox" id="personvern1" name="personvern1" value="personvern" required>
+        <label> Jeg ønsker å motta tekstmeldinger med tilbud og nyheter.</label> 
+</section>
+
+    
+    
+    </main>
+
+
+        <footer class="footer-section" id="footer-section1">
+            <div id=top>
+                <h3>Logo</h3>
+                <a>at vero eos et acucusamus et iusto odio dignissimos ducimus qui blanditis</a>
+            </div>
+    
+            <div class="footer-section">
+            <h3>Kontakt</h3>
+            <ul>                
+                <li><i class="fa-solid fa-location-dot" id="location"></i> <b>Adresse:</b> B R A veien 4, 1757 Halden</li>
+                <li><i class="fa-solid fa-phone" id="phone"></i><b>Telefon:</b> 69 60 80 00</li>
+                <li><i class="fa-solid fa-envelope" id="envelope"></i><b>E-post:</b> halden@hiof.no</li>
+                <li><i class="fa-solid fa-clock" id="clock"></i><b>Åpningstider:</b> Stenger 15.00</li>
+            </ul>
+            </div>
+            
+            <div class="footer-section">
+            <h3>Snarveier</h3>
+            <ul>
+                <li>Produkter</li>
+                <li>Kategorier</li>
+                <li>Kontakt oss</li>
+            </ul>
+            </div>
+            
+            <div>
+            <section class="footer-section">
+            <h3>Sosiale medier</h3>
+            
+            <ul class="icons-flex">
+                <li><i class="fa-brands fa-facebook-f"></i></li> 
+                <li><i class="fa-brands fa-instagram"></i></li> 
+                <li><i class="fa-brands fa-linkedin"></i></li> 
+                <li><i class="fa-brands fa-pinterest"></i></li>
+            </ul>
+           
+        </section>
+            </div>
+        </footer>
+    </body>
+
+</html>
